@@ -1,0 +1,18 @@
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/enabled"
+        android:drawable="@drawable/ic_protection_enabled"
+        android:state_enabled="true" />
+    <item
+        android:id="@+id/disabled"
+        android:drawable="@drawable/ic_protection_disabled" />
+
+    <transition
+        android:drawable="@drawable/ic_protection_disabled_to_enabled"
+        android:fromId="@id/disabled"
+        android:toId="@id/enabled" />
+    <transition
+        android:drawable="@drawable/ic_protection_enabled_to_disabled"
+        android:fromId="@+id/enabled"
+        android:toId="@+id/disabled" />
+</animated-selector>

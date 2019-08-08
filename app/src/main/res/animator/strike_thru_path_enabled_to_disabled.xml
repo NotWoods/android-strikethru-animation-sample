@@ -1,0 +1,14 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:propertyName="pathData"
+        android:duration="500"
+        android:valueFrom="M 20 1.6 L 21.4 3 L 21.9 2.5 C 20.9 3.5 19.5 2 20.5 1.1 L 20 1.6 Z"
+        android:valueTo="M 20 1.6 L 21.4 3 L 5.2 19.2 C 4.2 20.2 2.8 18.8 3.8 17.8 L 20 1.6 Z"
+        android:valueType="pathType" />
+    <objectAnimator
+        android:propertyName="fillColor"
+        android:duration="500"
+        android:valueFrom="#20123A"
+        android:valueTo="#CCCCCC"
+        android:valueType="colorType" />
+</set>
